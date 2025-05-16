@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocal API - AI Voice Cloning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 15c1.95 0 3.5-1.55 3.5-3.5S13.95 8 12 8s-3.5 1.55-3.5 3.5S10.05 15 12 15zm0-5c.83 0 1.5.67 1.5 1.5S12.83 13 12 13s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5z"/>
+                        <path d="M19.44 13.32c.01-.12.02-.25.02-.38 0-2.9-2.06-5.32-4.82-5.88v-.82c0-1.19-.97-2.15-2.16-2.15-.58 0-1.11.23-1.5.61-.39-.38-.92-.61-1.5-.61-1.19 0-2.16.96-2.16 2.15v.82c-2.76.56-4.82 2.98-4.82 5.88 0 .13.01.26.02.38C1.09 13.85 0 15.35 0 17.13 0 19.84 2.17 22 4.89 22h14.22c2.72 0 4.89-2.16 4.89-4.87 0-1.78-1.09-3.28-2.56-3.81zM12 3.59c.59 0 1.07.48 1.07 1.07v.86c-.35-.04-.71-.06-1.07-.06s-.72.02-1.07.06v-.86c0-.59.48-1.07 1.07-1.07zm-2.14 0c.16 0 .31.04.45.1-.28.27-.45.64-.45 1.06v1.09c-.86.22-1.63.62-2.27 1.15-.35-.45-.55-1.02-.55-1.63 0-.98.79-1.77 1.77-1.77h1.05zm-4.97 17.3c-2.11 0-3.83-1.71-3.83-3.81 0-1.77 1.22-3.25 2.87-3.69.32-.59.71-1.1 1.17-1.54-.08.35-.12.71-.12 1.08 0 2.76 2.24 5 5 5 .37 0 .73-.04 1.08-.12.44.46.95.85 1.54 1.17.44 1.65 1.92 2.87 3.69 2.87 2.1 0 3.81-1.72 3.81-3.83 0-1.54-.92-2.87-2.24-3.46-.05 2.23-1.88 4.03-4.11 4.03-1.24 0-2.36-.55-3.11-1.42-.75.87-1.87 1.42-3.11 1.42-2.23 0-4.06-1.8-4.11-4.03-1.32.59-2.24 1.92-2.24 3.46zm17.11-3.77c0 1.57-1.28 2.84-2.84 2.84s-2.84-1.27-2.84-2.84 1.28-2.84 2.84-2.84 2.84 1.27 2.84 2.84z"/>
+                    </svg>
+                </div>
+                Vocal
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#api-docs">API</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#" class="btn">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Advanced AI Voice Cloning API</h1>
+            <p>Transform text into natural-sounding speech with our cutting-edge voice cloning technology. Create realistic voices for your applications with just a few lines of code.</p>
+            <a href="#api-docs" class="btn">Get Started</a>
+            <a href="#demo" class="btn btn-outline">Try Demo</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Our API provides powerful voice synthesis capabilities with simple integration</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 15c1.95 0 3.5-1.55 3.5-3.5S13.95 8 12 8s-3.5 1.55-3.5 3.5S10.05 15 12 15zm0-5c.83 0 1.5.67 1.5 1.5S12.83 13 12 13s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5z"/>
+                            <path d="M19.44 13.32c.01-.12.02-.25.02-.38 0-2.9-2.06-5.32-4.82-5.88v-.82c0-1.19-.97-2.15-2.16-2.15-.58 0-1.11.23-1.5.61-.39-.38-.92-.61-1.5-.61-1.19 0-2.16.96-2.16 2.15v.82c-2.76.56-4.82 2.98-4.82 5.88 0 .13.01.26.02.38C1.09 13.85 0 15.35 0 17.13 0 19.84 2.17 22 4.89 22h14.22c2.72 0 4.89-2.16 4.89-4.87 0-1.78-1.09-3.28-2.56-3.81z"/>
+                        </svg>
+                    </div>
+                    <h3>High-Quality Voice Cloning</h3>
+                    <p>Create realistic voice replicas with just 30 seconds of audio, preserving the unique characteristics and tone of the original speaker.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M7 16V8h10v8H7zm-5-2h3v-4H2v4zm20-4h-3v4h3v-4zm-2 9h-1.5v1.5h-9V19H8v-1H2v2h20v-2h-6v-1zm-3-5h-1v1.5h1V14z"/>
+                        </svg>
+                    </div>
+                    <h3>Multi-Language Support</h3>
+                    <p>Generate speech in over 40 languages with natural intonation and pronunciation, enabling global application deployment.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M11 21h-1l1-7H7.5c-.58 0-.8-.5-.4-1l6-7c.41-.5.92-.2.92.3v8h3.5c.49 0 .7.46.4.9L13 20.9c-.21.3-.64.1-.4-.4L11 21z"/>
+                        </svg>
+                    </div>
+                    <h3>Emotion & Style Control</h3>
+                    <p>Adjust emotional tone, speaking rate, pitch, and style to create the perfect voice for your specific use case and context.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Documentation -->
+    <section class="api-docs" id="api-docs">
+        <div class="container">
+            <div class="section-header">
+                <h2>API Documentation</h2>
+                <p>Integrate our voice cloning technology into your applications with our simple REST API</p>
+            </div>
+
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method">POST</span>
+                    <span class="endpoint-url">https://api.vocal.live/v1/create-voice</span>
+                </div>
+               </pre>
+        </div>
+    </div>
+</div>
+                <p>Create a new voice profile from an audio sample</p>
+                <div class="api-example">
+                    <h3>Sample Voices</h3>
+                    <div class="sample-voices">
+                        <div class="sample-voice">
+                            <h4>John (Male, US English)</h4>
+                            <audio controls>
+                                <source src="/api/placeholder/400/50" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p>Professional male voice with neutral tone, perfect for business presentations and educational content.</p>
+                        </div>
+                        <div class="sample-voice">
+                            <h4>Emma (Female, UK English)</h4>
+                            <audio controls>
+                                <source src="/api/placeholder/400/50" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p>Warm female voice with British accent, ideal for narration and storytelling.</p>
+                        </div>
+                        <div class="sample-voice">
+                            <h4>Alex (Neutral, US English)</h4>
+                            <audio controls>
+                                <source src="/api/placeholder/400/50" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p>Versatile neutral voice that works well for technical instructions and general applications.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Usage Examples</h3>
+                    <div class="usage-examples">
+                        <div class="usage-example">
+                            <h4>Content Creation</h4>
+                            <p>Generate voiceovers for videos, podcasts, and audiobooks without the need for recording studios or voice actors.</p>
+                        </div>
+                        <div class="usage-example">
+                            <h4>Accessibility</h4>
+                            <p>Convert written content to speech for visually impaired users or those who prefer audio consumption.</p>
+                        </div>
+                        <div class="usage-example">
+                            <h4>Interactive Applications</h4>
+                            <p>Create dynamic voice responses for virtual assistants, chatbots, and interactive voice applications.</p>
+                        </div>
+                        <div class="usage-example">
+                            <h4>Language Learning</h4>
+                            <p>Provide pronunciation examples and spoken language practice with accurately cloned voices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method">POST</span>
+                    <span class="endpoint-url">https://api.vocal.live/v1/generate-speech</span>
+                </div>
+                <p>Generate speech using a voice profile</p>
+                <div class="api-example">
+                    <h3>Sample Voices</h3>
+                    <div class="sample-voices">
+                        <div class="sample-voice">
+                            <h4>Maria (Female, Spanish)</h4>
+                            <audio controls>
+                                <source src="/api/placeholder/400/50" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p>Expressive female voice with Spanish accent, perfect for multimedia localization and international content.</p>
+                        </div>
+                        <div class="sample-voice">
+                            <h4>David (Male, Australian)</h4>
+                            <audio controls>
+                                <source src="/api/placeholder/400/50" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <p>Friendly male voice with Australian accent, great for casual and approachable content.</p>
+                        </div>
+                        <div class="sample-voice">
+                            <h4>Custom Voice</h4>
+                            <p>Upload your own 30-second audio sample to create a custom voice clone that matches your desired tone and style.</p>
+                            <button class="btn">Try Custom Voice</button>
+                        </div>
+                    </div>
+                    
+                    <h3>Usage Examples</h3>
+                    <div class="usage-examples">
+                        <div class="usage-example">
+                            <h4>E-Learning</h4>
+                            <p>Create engaging educational content with consistent voice narration across all your learning materials.</p>
+                        </div>
+                        <div class="usage-example">
+                            <h4>Multilingual Content</h4>
+                            <p>Easily translate and voice your content in multiple languages while maintaining voice consistency.</p>
+                        </div>
+                        <div class="usage-example">
+                            <h4>Voice Preservation</h4>
+                            <p>Preserve voices for future use in healthcare applications or personal legacy projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method">GET</span>
+                    <span class="endpoint-url">https://api.vocal.live/v1/voices</span>
+                </div>
+                <p>List all voice profiles associated with your account</p>
+                <div class="api-example">
+                    <h3>Industry Applications</h3>
+                    <div class="industry-applications">
+                        <div class="industry-application">
+                            <h4>Media & Entertainment</h4>
+                            <p>Create consistent voiceovers for animations, games, and film productions without requiring voice actors to return for additional sessions.</p>
+                        </div>
+                        <div class="industry-application">
+                            <h4>Telecommunications</h4>
+                            <p>Develop personalized IVR (Interactive Voice Response) systems with custom branded voices for better customer experience.</p>
+                        </div>
+                        <div class="industry-application">
+                            <h4>Healthcare</h4>
+                            <p>Provide voice banking solutions for patients with degenerative speech conditions, preserving their voice for future communication needs.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Implementation Guide</h3>
+                    <div class="implementation-steps">
+                        <ol>
+                            <li>
+                                <h4>Sign up for API access</h4>
+                                <p>Create an account and receive your API key with 1,000 free credits to start exploring the platform.</p>
+                            </li>
+                            <li>
+                                <h4>Create or select voices</h4>
+                                <p>Use our pre-made voices or upload audio samples to create custom voice profiles for your specific needs.</p>
+                            </li>
+                            <li>
+                                <h4>Integrate the API</h4>
+                                <p>Add a few lines of code to your application to start generating speech with your selected voices.</p>
+                            </li>
+                            <li>
+                                <h4>Scale as needed</h4>
+                                <p>Our API can handle millions of requests per day with low latency for enterprise-level applications.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2>Try It Now</h2>
+                <p>Experience the power of our voice cloning technology with this interactive demo</p>
+            </div>
+            <div class="demo-container">
+                <div class="demo-form">
+                    <form id="demo-form">
+                        <div class="form-group">
+                            <label for="voice-select">Select Voice</label>
+                            <select id="voice-select" class="form-control">
+                                <option value="default-male">Default Male</option>
+                                <option value="default-female">Default Female</option>
+                                <option value="default-neutral">Default Neutral</option>
+                                <option value="custom">Upload Custom Voice (Pro Feature)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="text-input">Text to Speak</label>
+                            <textarea id="text-input" class="form-control" rows="4" placeholder="Enter text to convert to speech...">Welcome to Vocal, the advanced AI voice cloning API. This is a demonstration of our text-to-speech capabilities.</textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="rate-input">Speaking Rate</label>
+                                <input type="range" id="rate-input" class="form-control" min="0.5" max="2" step="0.1" value="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="pitch-input">Pitch</label>
+                                <input type="range" id="pitch-input" class="form-control" min="0.5" max="2" step="0.1" value="1">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="emotion-select">Emotion</label>
+                                <select id="emotion-select" class="form-control">
+                                    <option value="neutral">Neutral</option>
+                                    <option value="happy">Happy</option>
+                                    <option value="sad">Sad</option>
+
+<!-- Case Studies Section -->
+<section class="case-studies" id="case-studies">
+    <div class="container">
+        <div class="section-header">
+            <h2>Success Stories</h2>
+            <p>See how companies are using Vocal API</p>
+        </div>
+        <div class="case-studies-grid">
+            <div class="case-study">
+                <img src="placeholder-company1.jpg" alt="EdTech Company Logo">
+                <h3>GlobalLearn EdTech</h3>
+                <p class="stats">200% increase in student engagement</p>
+                <p>Implemented voice-enabled learning materials in 15 languages, reaching 1M+ students globally.</p>
+                <a href="#" class="btn-outline">Read More</a>
+            </div>
+            <div class="case-study">
+                <img src="placeholder-company2.jpg" alt="Healthcare Company Logo">
+                <h3>VoiceHealth Solutions</h3>
+                <p class="stats">1000+ voices preserved</p>
+                <p>Helping patients with degenerative conditions preserve their voices for future communication.</p>
+                <a href="#" class="btn-outline">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <h2>Simple, Transparent Pricing</h2>
+            <p>Choose the plan that fits your needs</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <div class="price">$49<span>/month</span></div>
+                <ul class="features">
+                    <li>10,000 API calls/month</li>
+                    <li>5 custom voice profiles</li>
+                    <li>Basic voice customization</li>
+                    <li>Email support</li>
+                </ul>
+                <button class="btn">Get Started</button>
+            </div>
+            <div class="pricing-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <h3>Professional</h3>
+                <div class="price">$149<span>/month</span></div>
+                <ul class="features">
+                    <li>50,000 API calls/month</li>
+                    <li>20 custom voice profiles</li>
+                    <li>Advanced voice customization</li>
+                    <li>Priority support</li>
+                </ul>
+                <button class="btn">Try Pro</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <div class="price">Custom</div>
+                <ul class="features">
+                    <li>Unlimited API calls</li>
+                    <li>Unlimited voice profiles</li>
+                    <li>Custom features</li>
+                    <li>Dedicated support</li>
+                </ul>
+                <button class="btn">Contact Sales</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Security Section -->
+<section class="security" id="security">
+    <div class="container">
+        <div class="section-header">
+            <h2>Security & Privacy</h2>
+            <p>Enterprise-grade security for your voice data</p>
+        </div>
+        <div class="security-features">
+            <div class="security-card">
+                <div class="card-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>End-to-End Encryption</h3>
+                <p>256-bit AES encryption for all voice data in transit and at rest</p>
+            </div>
+            <div class="security-card">
+                <div class="card-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3>GDPR Compliant</h3>
+                <p>Full compliance with global data protection regulations</p>
+            </div>
+            <div class="security-card">
+                <div class="card-icon">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <h3>Ethical AI Usage</h3>
+                <p>Strict consent requirements and usage guidelines</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Have questions? We're here to help!</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Email Subscription -->
+                <div class="subscribe-box">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest updates and features</p>
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Company Information -->
+                <div class="company-info">
+                    <div class="info-item">
+                        <h4>Headquarters</h4>
+                        <p>123 Tech Avenue</p>
+                        <p>Silicon Valley, CA 94025</p>
+                        <p>United States</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Global Offices</h4>
+                        <ul>
+                            <li>London, UK</li>
+                            <li>Singapore</li>
+                            <li>Toronto, Canada</li>
+                            <li>Sydney, Australia</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Contact Details</h4>
+                        <p>Email: support@vocal.live</p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                        <p>Business Hours: 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Vocal</a>
+                    <p>Advanced AI Voice Cloning Technology</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vocal API. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="script.js"></script>
+</body>
