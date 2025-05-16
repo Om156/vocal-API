@@ -1,0 +1,56 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Audio files (if you're using sample audio)
+*.mp3
+*.wav
+*.ogg
+
+# Images (if using version control for images)
+# *.jpg
+# *.png
+# *.gif
+# Uncomment these if you don't want to track images
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# API keys and secrets
+*.pem
+*.key
+credentials.json
+
+# Local development files
+local.settings.json
+*.local
