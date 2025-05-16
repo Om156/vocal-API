@@ -12,11 +12,11 @@ Advanced AI voice cloning technology that transforms text into natural-sounding 
 
 ## Demo
 
-Try our interactive demo: [Vocal API Demo](https://USERNAME.github.io/vocal-api#demo)
+Try our interactive demo: [Vocal API Demo](https://Om156.github.io/vocal-api#demo)
 
 ## Documentation
 
-Full API documentation available at: [API Docs](https://USERNAME.github.io/vocal-api#api-docs)
+Full API documentation available at: [API Docs](https://Om156.github.io/vocal-api#api-docs)
 
 ## Getting Started
 
@@ -34,4 +34,4 @@ Full API documentation available at: [API Docs](https://USERNAME.github.io/vocal
 ## Contact
 
 - Email: support@vocal.live
-- Website: [https://USERNAME.github.io/vocal-api](https://USERNAME.github.io/vocal-api)
+- Website: [https://Om156.github.io/vocal-api](https://Om156.github.io/vocal-api)
